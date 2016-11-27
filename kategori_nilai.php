@@ -54,7 +54,11 @@
           </select>
           <br>
           <br>
-          <button type="submit" class="btn btn-default" href="#0">Lanjutkan</button>  
+          <button type="submit" class="btn btn-default" href="#0">Lanjutkan</button> 
+          <br>
+          <br>
+          <br>
+          <a href="list_nilai.php" class="btn btn-default">Lihat contoh</a> 
         </div>
 
       </div>

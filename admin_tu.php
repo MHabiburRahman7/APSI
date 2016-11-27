@@ -44,7 +44,6 @@
             
                 <p>Wali Kelas: Kelas KB A</p>
             
-                <p>Hobi: Sepak Bola, main catur</p>
               </div>
             </div>
             <br>        
@@ -54,16 +53,19 @@
             <br>
             <h3>Pilihan</h3>
             <br>
-            <a href="" class="btn btn-primary">Lihat guru</a>
+            <a href="list_guru.php" class="btn btn-primary">Lihat guru</a>
             <br>
             <br>
-            <a href="" class="btn btn-primary">Tambah guru</a>
+            <a href="formBioGuru.php" class="btn btn-primary">Tambah guru</a>
             <br>
             <br>
-            <a href="" class="btn btn-primary">Lihat Siswa</a>
+            <a href="list_siswa.php" class="btn btn-primary">Lihat Siswa</a>
             <br>
             <br>
-            <a href="" class="btn btn-primary">Tambah guru</a>
+            <a href="formBioSiswa.php" class="btn btn-primary">Tambah siswa</a>
+            <br>
+            <br>
+            <a href="list_spp.php" class="btn btn-primary">Lihat data pembayran spp</a>
             <br>
             <br>
           </div>

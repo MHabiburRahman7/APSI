@@ -54,10 +54,10 @@
             <br>
             <h3>Pilihan</h3>
             <br>
-            <a href="" class="btn btn-primary">Lihat nilai</a>
+            <a href="kategori_nilai.php" class="btn btn-primary">Lihat nilai</a>
             <br>
             <br>
-            <a href="" class="btn btn-primary">Buat Komentar</a>
+            <a href="buat_komentar.php" class="btn btn-primary">Buat Komentar</a>
             <br>
             <br>
           </div>
@@ -84,7 +84,7 @@
                       <td>1</td>
                       <td>Siapa</td>
                       <td>Laporan terkini</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="balas_komentar.php" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>2</td>

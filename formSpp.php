@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Isi nilai</title>
+    <title>Perbarui pembayaran spp</title>
 
     <?php
       include("head.php");
@@ -27,8 +27,7 @@
       <center>
       <div class="container">
         <div class="row" style="text-align: center;">
-          <h1>Pengisian nilai siswa</h1>
-          <h3>Mata pelajaran: (mata pelajaran yang dipilih)</h3>
+          <h1>Perbarui status spp siswa</h1>
         </div>
 
         <div class="row">
@@ -36,19 +35,23 @@
             <div class="form-group row" >
               <label class="col-xs-2 col-form-label">Nama</label>
                 <div class="col-xs-10">
-                  <input type="text" name="Nama_siswa">                  
+                  <input type="text" name="Nama_siswa" placeholder="Habib">                  
                 </div>
             </div>
             <div class="form-group row" >
-              <label class="col-xs-2 col-form-label">Nilai</label>
+              <label class="col-xs-2 col-form-label">Status</label>
                 <div class="col-xs-10">
-                  <input type="text" name="Nilai_siswa">                  
+                  <input type="text" name="Status_spp" placeholder="Belum bayar">                  
                 </div>
             </div>
-            <div>
-              <a href="" class="btn btn-default">Perbarui nilai</a>
+            <div class="form-group row" >
+              <label class="col-xs-2 col-form-label">Tanggal pembayaran</label>
+                <div class="col-xs-10">
+                  <input type="text" name="tgl" placeholder="DD/MM/YYYY">           
+                </div>
             </div>
           </form>
+          <button class="btn btn-default" type="submit">Perbarui</button>
         </div>
 
       </center>

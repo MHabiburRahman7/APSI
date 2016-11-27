@@ -34,7 +34,7 @@
         <div class="row">
         <p>Semester mulai</p>
           <form>
-          <select name="edit">
+          <select name="edit" class="form-control">
             <option value="">Semester 1</option>
             <option value="">Semester 2</option>
             <option value="">Semester 3</option>
@@ -44,7 +44,7 @@
         <br>
         <p>Semester akhir</p>
           <form>
-          <select name="edit">
+          <select name="edit" class="form-control">
             <option value="">Semester 1</option>
             <option value="">Semester 2</option>
             <option value="">Semester 3</option>
@@ -52,6 +52,10 @@
           </select>
           </form>
         </div>
+        <button type="submit" class="btn btn-default">Lihat nilai</button>
+        <br>
+        <br>
+        <br>
 
         <div class="row" style="max-width: 70%">
           <h3>Tahun ajaran xxxx/xxxx</h3>

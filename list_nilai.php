@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Daftar guru</title>
+    <title>Daftar nilai siswa</title>
 
     <?php
       include("head.php");
@@ -27,52 +27,46 @@
       <center>
       <div class="container">
         <div class="row" style="text-align: center;">
-          <h1>Data guru</h1>
-          <a href="formBioGuru.php" class="btn btn-default">Tambahkan guru baru</a>
+          <h1>Data nilai siswa</h1>
+          <h3>Kelas : (kelas yang dipilih)</h3>
+          <h3>Mata pelajaran: (mata pelajaran yang dipilih)</h3>
         </div>
 
         <div class="row" style="max-width: 70%">
+          <h3>Tahun ajaran xxxx/xxxx</h3>
           <table class="display dataTable">
             <thead>
                     <tr>
                       <th>No</th>
-                      <th>Nama guru</th>
-                      <th>Nomor induk</th>
-                      <th style="text-align: center;">Ubah</th>
+                      <th>Nama siswa</th>
+                      <th>Nilai terkini</th>
+                      <th>Ubah</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
                       <td>Cahya S</td>
-                      <td>001</td>
-                      <td><a href="formBioGuru.php" class="btn btn-default">Lihat detail</a>
-                      <a href="" class="btn btn-default">Hapus Guru</a>
-                      </td>
+                      <td>80</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Perbarui</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
                       <td>Irzal D</td>
-                      <td>002</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a>
-                      <a href="" class="btn btn-default">Hapus Guru</a>
-                      </td>
+                      <td>90</td>
+                      <td><a href="" class="btn btn-default">Perbarui</a></td>
                     </tr>
                     <tr>
                       <td>3</td>
                       <td>Habib W</td>
-                      <td>003</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a>
-                      <a href="" class="btn btn-default">Hapus Guru</a>
-                      </td>
+                      <td>85</td>
+                      <td><a href="" class="btn btn-default">Perbarui</a></td>
                     </tr>
                     <tr>
                       <td>4</td>
                       <td>Kukuh S</td>
-                      <td>004</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a>
-                      <a href="" class="btn btn-default">Hapus Guru</a>
-                      </td>
+                      <td>88</td>
+                      <td><a href="" class="btn btn-default">Perbarui</a></td>
                     </tr>
                   </tbody>
           </table>
@@ -89,4 +83,4 @@
 
     <?php
       include('footer.php');
-    ?>kiri
+    ?>

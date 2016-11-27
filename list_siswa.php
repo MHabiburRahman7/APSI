@@ -29,6 +29,7 @@
         <div class="row" style="text-align: center;">
           <h1>Data siswa</h1>
           <h3>Kelas : (kelas yang dipilih)</h3>
+          <a href="formBioSiswa.php" class="btn btn-default">Tambah siswa</a>
         </div>
 
         <div class="row" style="max-width: 70%">
@@ -47,25 +48,29 @@
                       <td>1</td>
                       <td>Cahya S</td>
                       <td>001</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a></td>
+                      <td><a href="formBioSiswa.php" class="btn btn-default">Lihat detail</a>
+                      <a href="" class="btn btn-default">Hapus Siswa</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
                       <td>Irzal D</td>
                       <td>002</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a></td>
+                      <td><a href="" class="btn btn-default">Lihat detail</a>
+                      <a href="" class="btn btn-default">Hapus Siswa</a></td>
                     </tr>
                     <tr>
                       <td>3</td>
                       <td>Habib W</td>
                       <td>003</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a></td>
+                      <td><a href="" class="btn btn-default">Lihat detail</a>
+                      <a href="" class="btn btn-default">Hapus Siswa</a></td>
                     </tr>
                     <tr>
                       <td>4</td>
                       <td>Kukuh S</td>
                       <td>004</td>
-                      <td><a href="" class="btn btn-default">Lihat detail</a></td>
+                      <td><a href="" class="btn btn-default">Lihat detail</a>
+                      <a href="" class="btn btn-default">Hapus Siswa</a></td>
                     </tr>
                   </tbody>
           </table>
