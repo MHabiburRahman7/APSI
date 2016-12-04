@@ -51,7 +51,7 @@
                       <td>1</td>
                       <td>Siapa</td>
                       <td>Laporan terkini</td>
-                      <td><a href="balas_komentar.php" class="btn btn-default">Balas</a></td>
+                      <td><a href="lihat_komentar.php" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
