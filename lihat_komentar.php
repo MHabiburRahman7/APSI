@@ -26,29 +26,32 @@
    <div class="content">
       <div class="container">
         <div class="row" style="text-align: center;">
-          <h1>Balas Komentar</h1>
+          <h1>Lihat Komentar Masuk</h1>
         </div>
 
         <div class="row">
           <form>
             <div class="form-group">
               <label>Pengirim</label>
-              <input type="text" name="penerima">
+              <h3>Siapa pengirimnya</h3>
             </div>
             <div class="form-group">
               <label>Perihal</label>
-              <input type="text" name="penerima">
+              <h3>Contoh Perihal</h3>
             </div>
             <br>
             <div class="form-group">
               <label>Isi Komentar</label>
-              <textarea class="form-control" rows="5" style="height: 400px" placeholder="tuliskan isi komentar anda"></textarea>
+              <textarea class="form-control" rows="5" style="height: 400px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
             </div>
 
             <br>
-            <input type="file" class="form-control-file" name="">
-            <br>
-            <button type="submit">Submit</button>
+            <a href="balas_komentar.php" class="btn btn-default">Balas</a>
           </form>
         </div>
 

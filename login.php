@@ -27,19 +27,15 @@
         <input type="email" name="email_in" placeholder="Email address" required><br><br> 
         <h4>Password</h4>
         <input type="password" name="pass" placeholder="Password" required>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" name="remember-me" value="remember"> Remember me
-            </label>
-          </div>
           <br>
-        <button type="submit" class="btn btn-lg btn-primary btn-block">Log In</button>     
+        <button type="submit" class="btn btn-primary btn-block">Log In</button>     
       </form>
     </div>
     <div class="col-md-6">
       <h2>Sistem Informasi KB Al-IMAN</h2>
       <p>Alamat: Sutorejo Tengah X No 2-4 Surabaya, Jawa Timur</p>
 
+      <!--
       <br>
         <a href="siswa.php" class="btn btn-primary">Tampilan untuk wali murid</a>
       <br>
@@ -47,8 +43,10 @@
         <a href="guru.php" class="btn btn-primary">Tampilan untuk guru</a>
       <br>
       <br>
-        <a href="admin_tu.php" class="btn btn-primary">Tampilan untuk Admin/TU</a>
+        <a href="admin_tungga.php" class="btn btn-primary">Tampilan untuk Admin/TU</a>
       <br>
+
+      -->
     </div>
     </div> <!-- /container -->
 

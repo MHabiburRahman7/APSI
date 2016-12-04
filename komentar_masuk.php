@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Guru</title>
+    <title>Komentar masuk</title>
 
     <?php
       include("head.php");
@@ -23,48 +23,15 @@
     ?>
     </header>
 
-    <div class="content">
+   <div class="content">
+      <center>
       <div class="container">
-        <div class="row" style="height: 100%">
-          <div class="col-md-4" style="background-color: #e0e0e0">
+        <div class="row" style="text-align: center;">
+          <h1>Komentar masuk</h1>
           <br>
-            <h2 style="text-align: center;">Data Pribadi</h2>
-            <center>
-              <img src="img/foto_guru.jpg" style="margin-top: 5%; margin-bottom: 5%;">
-            </center>
-            <div class="row">
-              <div class="container" style="background-color: #eeeeee">
-                <p>Nama: Komang Artanayasa S.Pd</p>
-            
-                <p>Alamat: Keputih Gg 2, No 12, Surabaya</p>
-            
-                <p>Nomor Induk: 08456454987512</p>
-            
-                <p>TTL: Surabya, 15 Mei 1898</p>
-            
-                <p>Wali Kelas: Kelas KB A</p>
-            
-                <p>Hobi: Sepak Bola, main catur</p>
-              </div>
-            </div>
-            <br>        
-          </div>
-          
-          <div class="col-md-8" style="background-color: lightblue; height: 100%">
-            <br>
-            <h3>Pilihan</h3>
-            <br>
-            <a href="kategori_nilai.php" class="btn btn-primary">Kelola nilai</a>
-            <br>
-            <br>
-            <a href="komentar_masuk.php" class="btn btn-primary">Kelola Komentar</a>
-            <br>
-            <br>
-          </div>
-          <div class="col-md-8" style="background-color: #90caf9; height: 664px">
-            <br>
-            <h3>Komentar masuk</h3>
-            <br>
+          <a href="" class="btn btn-default">Buat komentar</a>
+        </div>
+
             <table class="display dataTable">
               <div class="table responsive">
                 <table class="display table">
@@ -73,7 +40,7 @@
                       <th>No</th>
                       <th>Pengirim</th>
                       <th>Judul</th>
-                      <th>Lihat</th>
+                      <th>Balas</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -84,37 +51,37 @@
                       <td>1</td>
                       <td>Siapa</td>
                       <td>Laporan terkini</td>
-                      <td><a href="balas_komentar.php" class="btn btn-default">Lihat</a></td>
+                      <td><a href="balas_komentar.php" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
                       <td>Siapa</td>
                       <td>Laporan bisnis</td>
-                      <td><a href="" class="btn btn-default">Lihat</a></td>
+                      <td><a href="" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>3</td>
                       <td>Siapa</td>
                       <td>Laporan</td>
-                      <td><a href="" class="btn btn-default">Lihat</a></td>
+                      <td><a href="" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>4</td>
                       <td>Siapa</td>
                       <td>Hehehe</td>
-                      <td><a href="" class="btn btn-default">Lihat</a></td>
+                      <td><a href="" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>5</td>
                       <td>Siapa</td>
                       <td>Laporan saja</td>
-                      <td><a href="" class="btn btn-default">Lihat</a></td>
+                      <td><a href="" class="btn btn-default">Balas</a></td>
                     </tr>
                     <tr>
                       <td>6</td>
                       <td>Siapa</td>
                       <td>Laporan terdahulu</td>
-                      <td><a href="" class="btn btn-default">Lihat</a></td>
+                      <td><a href="" class="btn btn-default">Balas</a></td>
                     </tr>
                    
                   </tbody>
@@ -124,8 +91,6 @@
           </div>
           <br>
         </div>
-      </div>
-    </div>
 
     <?php
       include 'footer.php';

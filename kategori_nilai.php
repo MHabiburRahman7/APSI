@@ -58,7 +58,7 @@
           <br>
           <br>
           <br>
-          <a href="list_nilai.php" class="btn btn-default">Lihat contoh</a> 
+          <a href="cari_siswa.php" class="btn btn-default">Lihat contoh</a> 
         </div>
 
       </div>
