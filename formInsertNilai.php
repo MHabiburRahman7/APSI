@@ -28,22 +28,32 @@
       <div class="container">
         <div class="row" style="text-align: center;">
           <h1>Pengisian nilai siswa</h1>
-          <h3>Mata pelajaran: (mata pelajaran yang dipilih)</h3>
-          <h3>Tahun Ajaran: xxxx/xxxx</h3>
         </div>
 
         <div class="row">
           <form>
             <div class="form-group row" >
-              <label class="col-xs-2 col-form-label">Nama Siswa</label>
+              <label class="col-xs-2 col-form-label">Nama</label>
                 <div class="col-xs-10">
-                  <input type="text" name="Nama_siswa">                  
+                  <input type="text" name="Nama_siswa" placeholder="nama siswa yang sudah dipilih">                  
                 </div>
             </div>
+            <div class="row">
+              <label>
+                <h3>Piliih Mata pelajaran</h3>
+              </label>
+              <select class="form-control" style="width: 80%">
+                <option value="">Agama</option>
+                <option value="">Agama</option>
+                <option value="">Agama</option>
+                <option value="">Agama</option>
+                <option value="">Agama</option>
+              </select>
+            </div>
             <div class="form-group row" >
-              <label class="col-xs-2 col-form-label">Nilai</label>
+              <label class="col-xs-2 col-form-label">Masukkan Nilai</label>
                 <div class="col-xs-10">
-                  <input type="text" name="Nilai_siswa">                  
+                  <input type="text" name="Nilai_siswa">            
                 </div>
             </div>
             <div>

@@ -29,7 +29,7 @@
         <div class="row" style="text-align: center;">
           <h1>Komentar masuk</h1>
           <br>
-          <a href="" class="btn btn-default">Buat komentar</a>
+          <a href="buat_komentar.php" class="btn btn-default">Buat komentar</a>
         </div>
 
             <table class="display dataTable">

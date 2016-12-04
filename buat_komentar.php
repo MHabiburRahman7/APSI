@@ -35,10 +35,14 @@
               <label>Penerima</label>
               <input type="text" name="penerima">
             </div>
+            <div class="form-group">
+              <label>Perihal</label>
+              <input type="text" name="perihal">
+            </div>
             <br>
             <div class="form-group">
               <label>Isi Komentar</label>
-              <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+              <textarea class="form-control" rows="5" style="height: 400px" placeholder="tuliskan isi komentar anda"></textarea>
             </div>
 
             <br>

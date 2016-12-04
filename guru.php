@@ -54,7 +54,7 @@
             <br>
             <h3>Pilihan</h3>
             <br>
-            <a href="kategori_nilai.php" class="btn btn-primary">Kelola nilai</a>
+            <a href="cari_siswa.php" class="btn btn-primary">Kelola nilai</a>
             <br>
             <br>
             <a href="komentar_masuk.php" class="btn btn-primary">Kelola Komentar</a>

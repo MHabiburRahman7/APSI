@@ -23,13 +23,14 @@
     ?>
     </header>
 
-   <div class="content">
+    <div class="content">
       <center>
       <div class="container">
         <div class="row" style="text-align: center;">
-          <h1>Data nilai siswa</h1>
-          <h3>Kelas : (kelas yang dipegang)</h3>
-          <a href="" class="btn btn-default"><p>Inputkan semua nilai</p></a>
+          <h1>Data nilai </h1>
+          <h3>Nama Siswa: Ahmad Istiqlal</h3>
+          <br>
+          <a href="formInsertNilai.php" class="btn btn-default">Masukkan nilai baru</a>
         </div>
 
         <div class="row" style="max-width: 70%">
@@ -38,7 +39,6 @@
             <thead>
                     <tr>
                       <th>No</th>
-                      <th>Nama siswa</th>
                       <th>Indikator</th>
                       <th>Nilai</th>
                       <th>Ubah</th>
@@ -47,38 +47,115 @@
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Cahya P</td>
                       <td>Hafalan</td>
                       <td>100</td>
-                      <td><a href="" class="btn btn-default">Ubah nilai</a></td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Habib A</td>
                       <td>Agama</td>
                       <td>85</td>
-                      <td><a href="" class="btn btn-default">Ubah nilai</a></td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
                     </tr> 
                     <tr>
                       <td>3</td>
-                      <td>Irzal C</td>
                       <td>Doa sehari hari</td>
                       <td>90</td>
-                      <td><a href="" class="btn btn-default">Ubah nilai</a></td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>Kukuh R</td>
                       <td>Tata krama</td>
                       <td>89</td>
-                      <td><a href="" class="btn btn-default">Ubah nilai</a></td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                  </tbody>
+          </table>
+        </div>
+                <div class="row" style="max-width: 70%">
+          <h3>Tahun ajaran xxxx/xxxx</h3>
+          <table class="display dataTable">
+            <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Indikator</th>
+                      <th>Nilai</th>
+                      <th>Ubah</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Hafalan</td>
+                      <td>100</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Agama</td>
+                      <td>85</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr> 
+                    <tr>
+                      <td>3</td>
+                      <td>Doa sehari hari</td>
+                      <td>90</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Tata krama</td>
+                      <td>89</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                  </tbody>
+          </table>
+        </div>
+                <div class="row" style="max-width: 70%">
+          <h3>Tahun ajaran xxxx/xxxx</h3>
+          <table class="display dataTable">
+            <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Indikator</th>
+                      <th>Nilai</th>
+                      <th>Ubah</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Hafalan</td>
+                      <td>100</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Agama</td>
+                      <td>85</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr> 
+                    <tr>
+                      <td>3</td>
+                      <td>Doa sehari hari</td>
+                      <td>90</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Tata krama</td>
+                      <td>89</td>
+                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
                     </tr>
                   </tbody>
           </table>
         </div>
 
-    <?php
-      include 'footer.php';
-    ?>
+      </center>
+    </div>
 
   </body>
+
+    <?php
+      include('footer.php');
+    ?>

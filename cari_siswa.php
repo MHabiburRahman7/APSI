@@ -27,9 +27,7 @@
       <center>
       <div class="container">
         <div class="row" style="text-align: center;">
-          <h1>Data nilai siswa</h1>
-          <h3>Kelas : (kelas yang dipilih)</h3>
-          <h3>Mata pelajaran: (mata pelajaran yang dipilih)</h3>
+          <h1>Pencarian siswa</h1>
         </div>
 
         <div class="row">
@@ -40,7 +38,7 @@
           <br>
           <br>
           <button type="submit" class="btn btn-default">Lanjutkan</button>
-          <a href="list_nilai.php" class="btn btn-default">Lihat contoh</a>
+          <a href="nilai_guru.php" class="btn btn-default">Lihat contoh</a>
         </div>
 
         </div>
