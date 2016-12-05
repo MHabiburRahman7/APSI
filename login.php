@@ -35,7 +35,6 @@
       <h2>Sistem Informasi KB Al-IMAN</h2>
       <p>Alamat: Sutorejo Tengah X No 2-4 Surabaya, Jawa Timur</p>
 
-      <!--
       <br>
         <a href="siswa.php" class="btn btn-primary">Tampilan untuk wali murid</a>
       <br>
@@ -46,7 +45,6 @@
         <a href="admin_tungga.php" class="btn btn-primary">Tampilan untuk Admin/TU</a>
       <br>
 
-      -->
     </div>
     </div> <!-- /container -->
 
