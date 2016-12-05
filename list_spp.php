@@ -29,7 +29,9 @@
         <div class="row" style="text-align: center;">
           <h1>Data pembayaran spp</h1>
           <a href="formSppBaru.php" class="btn btn-default">Tambah data pembayaran per siswa</a>
+          <!--
           <a href="" class="btn btn-default">Tambah data pembayaran per semester</a>
+          -->
         </div>
 
         <div class="row" style="max-width: 70%">
