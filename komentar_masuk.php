@@ -40,7 +40,7 @@
                       <th>No</th>
                       <th>Pengirim</th>
                       <th>Judul</th>
-                      <th>Balas</th>
+                      <th>Lihat</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -51,37 +51,37 @@
                       <td>1</td>
                       <td>Siapa</td>
                       <td>Laporan terkini</td>
-                      <td><a href="lihat_komentar.php" class="btn btn-default">Balas</a></td>
+                      <td><a href="lihat_komentar.php" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
                       <td>Siapa</td>
                       <td>Laporan bisnis</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>3</td>
                       <td>Siapa</td>
                       <td>Laporan</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>4</td>
                       <td>Siapa</td>
                       <td>Hehehe</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>5</td>
                       <td>Siapa</td>
                       <td>Laporan saja</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>6</td>
                       <td>Siapa</td>
                       <td>Laporan terdahulu</td>
-                      <td><a href="" class="btn btn-default">Balas</a></td>
+                      <td><a href="" class="btn btn-default">Lihat</a></td>
                     </tr>
                    
                   </tbody>

@@ -37,34 +37,29 @@
             <thead>
                     <tr>
                       <th>No</th>
-                      <th>Bulan</th>
-                      <th>Biaya</th>
+                      <th>Tanggal pembayaran</th>
                       <th>Status</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Januari</td>
-                      <td>100.000</td>
+                      <td>10 Januari 2010</td>
                       <td>Terbayar</td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Februari</td>
-                      <td>100.000</td>
+                      <td>10 Februari 2010</td>
                       <td>Terbayar</td>
                     </tr> 
                     <tr>
                       <td>3</td>
-                      <td>Maret</td>
-                      <td>100.000</td>
+                      <td>Maret 2010</td>
                       <td>Belum Terbayar</td>
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>April</td>
-                      <td>100.000</td>
+                      <td>April 2010</td>
                       <td>Belum Terbayar</td>
                     </tr>
                   </tbody>
