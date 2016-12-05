@@ -42,7 +42,7 @@
         <a href="guru.php" class="btn btn-primary">Tampilan untuk guru</a>
       <br>
       <br>
-        <a href="admin_tungga.php" class="btn btn-primary">Tampilan untuk Admin/TU</a>
+        <a href="admin_tu.php" class="btn btn-primary">Tampilan untuk Admin/TU</a>
       <br>
 
     </div>
