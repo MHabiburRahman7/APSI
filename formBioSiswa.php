@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Isi nilai</title>
+    <title>Pengisian biodata siswa</title>
 
     <?php
       include("head.php");
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row" style="text-align: center;">
         <br>
-          <h1>Pengisian biodata siswa</h1>
+          <h1>Perbarui biodata siswa</h1>
         </div>
 
         <div class="row">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <br>
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Perbarui</button>
           </form>
 
           <!-- Modal -->
@@ -85,7 +85,7 @@
       </div>
      
       <div class="modal-footer" style="text-align: center;">
-        <button type="submit" class="btn btn-default" data-dismiss="modal">Submit</button>
+        <button type="submit" class="btn btn-default" data-dismiss="modal">Perbarui</button>
       </div>
     </div>
 

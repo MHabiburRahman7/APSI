@@ -29,7 +29,7 @@
         <div class="row" style="text-align: center;">
           <h1>Data siswa</h1>
           <h3>Kelas : (kelas yang dipilih)</h3>
-          <a href="formBioSiswa.php" class="btn btn-default">Tambah siswa</a>
+          <a href="formBioSiswaBaru.php" class="btn btn-default">Tambah siswa</a>
         </div>
 
         <div class="row" style="max-width: 70%">

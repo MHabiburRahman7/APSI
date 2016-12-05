@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Perbarui biodata guru</title>
+    <title>Pengisian biodata guru</title>
 
     <?php
       include("head.php");
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row" style="text-align: center;">
         <br>
-          <h1>Perbarui biodata guru</h1>
+          <h1>Pengisian biodata guru</h1>
         </div>
 
         <div class="row">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <br>
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Perbarui</button>
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
           </form>
 
           <!-- Modal -->
@@ -85,7 +85,7 @@
       </div>
      
       <div class="modal-footer" style="text-align: center;">
-        <button type="submit" class="btn btn-default" data-dismiss="modal">Perbarui</button>
+        <button type="submit" class="btn btn-default" data-dismiss="modal">Submit</button>
       </div>
     </div>
 

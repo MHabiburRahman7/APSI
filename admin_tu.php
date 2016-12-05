@@ -56,13 +56,13 @@
             <a href="list_guru.php" class="btn btn-primary">Lihat guru</a>
             <br>
             <br>
-            <a href="formBioGuru.php" class="btn btn-primary">Tambah guru</a>
+            <a href="formBioGuruBaru.php" class="btn btn-primary">Tambah guru</a>
             <br>
             <br>
             <a href="list_siswa.php" class="btn btn-primary">Lihat Siswa</a>
             <br>
             <br>
-            <a href="formBioSiswa.php" class="btn btn-primary">Tambah siswa</a>
+            <a href="formBioSiswaBaru.php" class="btn btn-primary">Tambah siswa</a>
             <br>
             <br>
             <a href="list_spp.php" class="btn btn-primary">Lihat data pembayran spp</a>

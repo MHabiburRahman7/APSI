@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row" style="text-align: center;">
           <h1>Data guru</h1>
-          <a href="formBioGuru.php" class="btn btn-default">Tambahkan guru baru</a>
+          <a href="formBioGuruBaru.php" class="btn btn-default">Tambahkan guru baru</a>
         </div>
 
         <div class="row" style="max-width: 70%">
