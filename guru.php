@@ -84,7 +84,7 @@
                       <td>1</td>
                       <td>Siapa</td>
                       <td>Laporan terkini</td>
-                      <td><a href="lihhat_komentar.php" class="btn btn-default">Lihat</a></td>
+                      <td><a href="lihat_komentar.php" class="btn btn-default">Lihat</a></td>
                     </tr>
                     <tr>
                       <td>2</td>
