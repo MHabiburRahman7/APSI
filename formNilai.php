@@ -1,3 +1,30 @@
+<?php
+  include 'config/database.php';
+  include 'objects/siswa.php';
+  include 'objects/nilai.php';
+
+  session_start();
+  $id_nilai;
+  $nis_siswa;
+
+  $id_nilai = $_GET['id_mapel'];
+  $id_siswa = $_GET['id_siswa'];
+
+  $database = new Database();
+  $db = $database->getConnection();
+
+  $sth = $db->prepare("SELECT nama_siswa FROM siswa WHERE nis_siswa = ?");
+  $sth->bindParam(1, $id_siswa);
+  $sth->execute();
+
+  $result = $sth->fetch(PDO::FETCH_ASSOC);
+
+  $map = $db->prepare("SELECT nilai_siswa FROM nilai WHERE id_nilai = ?");
+  $map->bindParam(1, $id_nilai);
+  $map->execute();
+  //$next = $sth
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,14 +63,15 @@
           <form>
             <div class="form-group row" >
               <label class="col-xs-2 col-form-label">Nama Siswa</label>
-                <div class="col-xs-10">
-                  <input type="text" name="Nama_siswa">                  
-                </div>
+                <?php
+                  echo "<h3>".$result."</h3>";
+                ?>
             </div>
             <div class="form-group row" >
               <label class="col-xs-2 col-form-label">Nilai</label>
                 <div class="col-xs-10">
-                  <input type="text" name="Nilai_siswa">                  
+                  <input type="text" name="Nilai_siswa" placeholder="<?php echo $map; ?>
+                  ">                  
                 </div>
             </div>
             <div>

@@ -1,3 +1,7 @@
+<?php
+  session_start()
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,13 +42,10 @@
             
                 <p>Alamat: Keputih Gg 2, No 12, Surabaya</p>
             
-                <p>Nomor Induk: 08456454987512</p>
-            
-                <p>TTL: Surabya, 15 Mei 1898</p>
+                <p>Nomor Induk: 0000</p>
             
                 <p>Wali Kelas: Kelas KB A</p>
-            
-                <p>Hobi: Sepak Bola, main catur</p>
+                
               </div>
             </div>
             <br>        

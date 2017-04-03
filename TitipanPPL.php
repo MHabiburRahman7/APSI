@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pengisian biodata siswa</title>
+    <title>Perbarui biodata guru</title>
 
     <?php
       include("head.php");
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row" style="text-align: center;">
         <br>
-          <h1>Perbarui biodata siswa</h1>
+          <h1>Perbarui biodata guru</h1>
         </div>
 
         <div class="row">
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="form-group row" >
-              <label class="col-xs-2 col-form-label">Nomor Induk</label>
+              <label class="col-xs-2 col-form-label">NIP</label>
                 <div class="col-xs-10">
                   <input type="text" name="nip">                  
                 </div>

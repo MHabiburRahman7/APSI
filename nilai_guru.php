@@ -1,3 +1,12 @@
+<?php
+//  include 'lib/main.php';
+  include 'config/database.php';
+  include 'objects/siswa.php';
+  include 'objects/nilai.php';
+  include 'objects/matapelajaran.php';
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +37,17 @@
       <div class="container">
         <div class="row" style="text-align: center;">
           <h1>Data nilai </h1>
-          <h3>Nama Siswa: Ahmad Istiqlal</h3>
+          <?php
+            $database = new Database();
+            $db = $database->getConnection();
+
+            $sis = new Siswa($db);
+            $sis->id = $_GET['id'];
+
+            $sis->readName();
+
+            echo "<h3>Nama Siswa: ".$sis->name."</h3>";
+          ?>
           <br>
           <a href="formInsertNilai.php" class="btn btn-default">Masukkan nilai baru</a>
         </div>
@@ -45,108 +64,30 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Hafalan</td>
-                      <td>100</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Agama</td>
-                      <td>85</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr> 
-                    <tr>
-                      <td>3</td>
-                      <td>Doa sehari hari</td>
-                      <td>90</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Tata krama</td>
-                      <td>89</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                  </tbody>
-          </table>
-        </div>
-                <div class="row" style="max-width: 70%">
-          <h3>Tahun ajaran xxxx/xxxx</h3>
-          <table class="display dataTable">
-            <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Indikator</th>
-                      <th>Nilai</th>
-                      <th>Ubah</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Hafalan</td>
-                      <td>100</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Agama</td>
-                      <td>85</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr> 
-                    <tr>
-                      <td>3</td>
-                      <td>Doa sehari hari</td>
-                      <td>90</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Tata krama</td>
-                      <td>89</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                  </tbody>
-          </table>
-        </div>
-                <div class="row" style="max-width: 70%">
-          <h3>Tahun ajaran xxxx/xxxx</h3>
-          <table class="display dataTable">
-            <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Indikator</th>
-                      <th>Nilai</th>
-                      <th>Ubah</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Hafalan</td>
-                      <td>100</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Agama</td>
-                      <td>85</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr> 
-                    <tr>
-                      <td>3</td>
-                      <td>Doa sehari hari</td>
-                      <td>90</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Tata krama</td>
-                      <td>89</td>
-                      <td><a href="formNilai.php" class="btn btn-default">Ubah</a></td>
-                    </tr>
+
+                  <?php
+
+                    $sth = $db->prepare("SELECT id_nilai, nilai_siswa, tahun, nama_pelajaran FROM nilai WHERE nis_siswa = ?");
+                      $sth->bindParam(1, $sis->id);
+                      $sth->execute();
+
+
+                      while ($row = $sth->fetch(PDO::FETCH_ASSOC))
+                      {
+                          extract($row);
+                          echo '<tr>';
+                          echo '  <td>'.$id_nilai.'</td>';
+                          echo '  <td>'.$nama_pelajaran.'</td>';
+                          echo '  <td>'.$nilai_siswa.'</td>';
+                          echo '  <td>';
+                          echo '<a href="formNilai.php?id_siswa='.$_GET['id'].'&id_mapel='.$id_nilai.'" class="btn btn-default left-margin">Edit</a>';
+                          echo '<a delete-id="'.$id_nilai.'" class="btn btn-danger delete-object">Delete</a>';
+                          echo '</td>';
+                          echo '</tr>';
+                      } 
+
+                  ?>
+                   
                   </tbody>
           </table>
         </div>

@@ -1,6 +1,6 @@
 <footer>
 <div class="container">
-          <div class="row" style="text-align: center;">
+          <div class="row" style="text-align: center; max-height: 100%; background-color: grey">
           <p>COPYRIGHT - B07SIPAUD 2016</p>
           <!--
                 <div class="col-md-12 text-center">

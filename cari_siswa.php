@@ -1,3 +1,8 @@
+<?php
+  include 'config/database.php';
+  session_start()
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,12 +39,52 @@
           <label>
             <h2>Masukkan nama siswa</h2>
           </label>
-          <input type="text" name="nama_siswa" placeholder="Nama lengkap siswa">
+          <form action="nilai_guru.php" method="post">
+            <input type="text" name="nama_siswa" placeholder="Nama lengkap siswa">  
+          </form>
           <br>
           <br>
           <button type="submit" class="btn btn-default">Lanjutkan</button>
-          <a href="nilai_guru.php" class="btn btn-default">Lihat contoh</a>
         </div>
+
+        <div class="row" style="max-width: 70%">
+          <h3>Tahun ajaran xxxx/xxxx</h3>
+          <table class="display dataTable">
+            <thead>
+                    <tr>
+                      <th>No induk</th>
+                      <th>Nama siswa</th>
+                      <th>Lanjutkan</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <?php
+                      $database = new Database();
+                      $db = $database->getConnection();
+
+                      $sth = $db->prepare("SELECT nis_siswa, nama_siswa FROM siswa");
+                      $sth->execute();
+
+                      while ($row = $sth->fetch(PDO::FETCH_ASSOC))
+                      {
+                          extract($row);
+                          echo '<tr>';
+                          echo '  <td>'.$nis_siswa.'</td>';
+                          echo '  <td>'.$nama_siswa.'</td>';
+                          echo '  <td>';
+                          echo '<a href="nilai_guru.php?id='.$nis_siswa.'" class="btn btn-default left-margin">Edit</a>';
+                          echo '<a delete-id="'.$nis_siswa.'" class="btn btn-danger delete-object">Delete</a>';
+                          echo '</td>';
+                          echo '</tr>';
+                      } 
+
+                  ?>
+
+                  </tbody>
+
+          </table>
+        </div>
+
 
         </div>
 

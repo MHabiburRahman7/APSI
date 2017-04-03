@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="form-group row" >
-              <label class="col-xs-2 col-form-label">NIP</label>
+              <label class="col-xs-2 col-form-label">Nomor Induk</label>
                 <div class="col-xs-10">
                   <input type="text" name="nip">                  
                 </div>
